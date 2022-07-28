@@ -29,7 +29,7 @@ Using QuickDBD we generated a **conceptual ERD diagram** or schema as the starti
  
 ![QuickDB](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/EmployeeDB.png)
  
-<sub>Figure 1.1 QuickDBD
+<sub>Figure 1.1 Conceptual ERD
  
 <br/>
  
@@ -37,7 +37,7 @@ Then we transitioned to create our **logical diagrams** contain all of the same 
  
 ![ERD](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/ERD.png)
  
-<sub>Figure 1.2 ERD
+<sub>Figure 1.2 Logical ERD
  
 <br/>
  
@@ -45,7 +45,7 @@ With our tables structure created, we proceeded to import our our data or csv fi
  
 ![retirement](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/retirement.png)
  
-<sub>Figure 1.3 Query-1 1Retirement
+<sub>Figure 1.3 Query-1 Retirement info
  
 We created a query to sort out employees with multiple titles or promotions, to only dsplay the most recent title. (Figure 1.4).
  
@@ -77,24 +77,23 @@ Figure 1.7, shows our final **ERD diagram** with our table structure and relatio
  
 ![ERD_final](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/ERD_final.png)
  
-<sub>Figure 1.7 ERD_final
+<sub>Figure 1.7 ERD with final tables structure and relationship
  
 <br/>
  
  
 ### Results
  
-Four major point from the 2 deliverables
-- There were about **72,458** employees that could potentially be retiring in the upcoming years based on their birth date and hiring date. (Figure 1.8)
-- The titles that will be more affected by the baby boomers being retiring would be senior engineers with **25,915** and Senior Staff **24,926**. (Figure 1.9)
-- The least affected titles was Managers with only **2** employees retiring. This could be because there are less management positions compared to non-management positions. But could also reflect that the company had a higher rate of turnover for management positions, and the employees occupying these roles are more recent hires that don't meet the client criteria for retirement.
-- The mentorship elegibility table reflected that there are about **1549** employees that meet the client criteria to mentore the next generation.
+- There were about **72,458** employees that could potentially be retiring in the upcoming years based on their birth date and hiring date. (Figure 1.5)
+- The titles that will be more affected by the baby boomers being retiring would be Senior engineers with **25,915** and Senior staff **24,926**. (Figure 1.5)
+- The least affected titles was Managers with only **2** employees retiring. This could be because there are less management positions compared to non-management positions. But could also reflect that the company had a higher rate of turnover for management positions, and the employees occupying these roles are more recent hires that don't meet the client criteria for retirement.(Fig 1.5
+- The mentorship elegibility table reflected that there are about **1,549** employees that meet the client criteria to mentore the next generation.(Fig 1.6)
  
 <br/>
  
 ## Summary
  
-- There would be about 72458 roles that would be needed to fill as the "silver tsunami" begins, 36% are senior engineers and 34% are Senior staff. We have generated a bar histogram and a pie chart to help with the visualization of the distribution and percentages of retiring titles.(Fig 1.9)
+- There would be about 72,458 roles that would be needed to fill as the "silver tsunami" begins, 36% are senior engineers and 34% are Senior staff. We have generated an histogram(Fig 1.8) and a pie chart(Fig 1.9) to help with the visualization of the distribution and percentages of retiring titles.
  
 <br/>
  
@@ -110,27 +109,27 @@ Four major point from the 2 deliverables
  
 <br/>
  
-- If we take a look at the retiring titles table and extract the number of employees that meet the requirements for retirement per our query, the total number is about **72,458** employees, meaning potential vacant positions. If we compare this  against the number of employees that qualify for mentorship program there are about **1,549**. This is a ratio of about 46, the client will have to assign about 46 employees per mentor to prepare the next generation.
+- If we take a look at the retiring titles table and extract the number of employees that meet the requirements for retirement per our query, the total number is about **72,458** employees, meaning potential vacant positions. If we compare this  against the number of employees that qualify for mentorship program that are about **1,549**, this is a ratio of about 46. The client will have to assign about 46 employees per mentor to prepare the next generation of employees.
  
-- In order to better help the client we rote 2 additional queries, one to filter the "retiring title table by department" (Fig 1.9) and one to filter the "mentorship retiring table by departments" (Fig 1.11). This way the client would have more insight information regarding which departments would be more affected and the mentors that they currently have per department. This will allow them to better plan with each department how to fll there vacant positions and how they can maximize their resources.
+- In order to better help the client we rote 2 additional queries, one to filter the "retiring title table by department" (Fig 1.10 - Fig 1.11) and one to filter the "mentorship retiring table by departments" (Fig 1.12). This way the client would have more insight information regarding which departments would be more affected and the mentors that they currently have per department. This will allow them to better plan with each department how to fll there vacant positions and how they can maximize their resources.
  
 <br/>
  
 ![retiring_by_departmt](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/retiring_by_department.png)
  
-<sub>Figure 1.9 Retiring Titles by departments
+<sub>Figure 1.10 Retiring Titles by departments
  
 <br/>
  
 ![histogram_retiring_by_department](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/histogram_retiring_by_department.png)
  
-<sub>Figure 1.10 Histogram Retiring Titles by Department
+<sub>Figure 1.11 Histogram Retiring Titles by Department
  
 <br/>
  
 ![mentorship_retiring_dept](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/mentorship_retiring_by_department.png)
  
-<sub>Figure 1.11 Mentorship Retiring by Department
+<sub>Figure 1.12 Mentorship Retiring by Department
  
 <br/>
  
