@@ -45,7 +45,7 @@ With our tables structure created, we proceeded to import our data or csv files(
  
 ![retirement](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/retirement.png)
  
-<sub>Figure 1.3 Query-1 Retirement info
+<sub>Figure 1.3 Query-1 Retirement_Titles
  
 We created a query to sort out employees with multiple titles or promotions, to only display the most recent title. (Figure 1.4).
  
@@ -99,13 +99,13 @@ Figure 1.7 shows our final **ERD diagram** with our table structure and relation
  
 ![histogram](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/Screenshot%20from%202022-07-26%2019-31-09.png)
  
-<sub>Figure 1.8 Histogram - Retiring Titles
+<sub>Figure 1.8 Histogram - Retiring_Titles
  
 <br/>
  
 ![pie_chart](./Analysis%20Project%20Folder/Pewlett-Hackerd-Analysis%20Folder/Images/Screenshot%20from%202022-07-26%2019-19-49.png)
  
-<sub>Figure 1.9 Pie Chart - Retiring Titles
+<sub>Figure 1.9 Pie Chart - Retiring_Titles
  
 <br/>
  
