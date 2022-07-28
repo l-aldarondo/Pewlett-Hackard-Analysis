@@ -111,7 +111,7 @@ Figure 1.7, shows our final **ERD diagram** with our table structure and relatio
  
 - If we take a look at the retiring titles table and extract the number of employees that meet the requirements for retirement per our query, the total number is about **72,458** employees, meaning potential vacant positions. If we compare this  against the number of employees that qualify for mentorship program that are about **1,549**, this is a ratio of about 46. The client will have to assign about 46 employees per mentor to prepare the next generation of employees.
  
-- In order to better help the client we rote 2 additional queries, one to filter the "retiring title table by department" (Fig 1.10 - Fig 1.11) and one to filter the "mentorship retiring table by departments" (Fig 1.12). This way the client would have more insight information regarding which departments would be more affected and the mentors that they currently have per department. This will allow them to better plan with each department how to fll there vacant positions and how they can maximize their resources.
+- In order to better help the client we rote 2 additional queries, one to filter the "retiring title table by department" (Fig 1.10 - Fig 1.11) and one to filter the "mentorship retiring table by departments" (Fig 1.12). In this way the client would have more insight information regarding which departments would be more affected and the mentors that they currently have per department. By looking  into Figure 1.11 we can see that not all departments are affected equally, deparments like "Development", "Production" and "Sales" are the more affected. This kind of analysi will better position them to plan and assaing resources to the different deartments according to theire needs of vacant positions and to maximize their current resources.
  
 <br/>
  
@@ -133,7 +133,7 @@ Figure 1.7, shows our final **ERD diagram** with our table structure and relatio
  
 <br/>
  
-- The amount of mentors could be enough if the client uses the current provided information to plan with each department and design mentorship programs in phases based on titles retiring in at a given period of time, this way they can fill out positions and bring out more candidates as need surge on those vacant positions and departments. To do this they ould need to plan and coordinate which positions retire first based on seniority in order to keep a healthy ratio of mentors and employees.
+- The amount of mentors could be enough if the client uses the current provided information to plan with each department and design mentorship programs in phases based on titles retiring in at a given period of time, this way they can fill out positions and bring out more candidates as need surge on those vacant positions and departments. To do this they would need to plan and coordinate which positions retire first based on seniority in order to keep a healthy ratio of mentors and employees.
  
 <br/>
  
