@@ -93,7 +93,7 @@ Figure 1.7 shows our final **ERD diagram** with our table structure and relation
  
 ## Summary
  
-- There would be about 72,458 roles that would be needed to fill as the "silver tsunami" begins, 36% are senior engineers and 34% are Senior staff. We have generated a histogram (Fig 1.8) and a pie chart (Fig 1.9) to help with the visualization of the distribution and percentages of retiring titles.
+- There would be about 72,458 roles that would be needed to fill as the "silver tsunami" begins, 36% are Senior engineers and 34% are Senior staff. We have generated a histogram (Fig 1.8) and a pie chart (Fig 1.9) to help with the visualization of the distribution and percentages of retiring titles.
  
 <br/>
  
